@@ -2,7 +2,7 @@
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Server RDP by @arakurumi" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
-net user administrator Onee /add >nul
+net user administrator Admin123 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
 net user installer /delete
@@ -19,6 +19,6 @@ echo Masukkan IP RDP tanpa tcp://
 echo Enter RDP IP without tcp://
 echo ===== RDP INFO =====
 echo Username: administrator
-echo Password: Onee
+echo Password: Admin123
 echo ===== RDP INFO =====
 ping -n 10 127.0.0.1 >nul
