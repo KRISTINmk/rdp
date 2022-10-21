@@ -16,9 +16,9 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://raw.githubusercontent.com/arakurumi/Free-RDP/main/ngrok.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/arakurumi/Free-RDP/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/arakurumi/Free-RDP/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://rotf.lol/ngrok-zip010610 -OutFile ngrok.zip
+        Invoke-WebRequest https://rotf.lol/bgu0pc -OutFile start.bat
+        Invoke-WebRequest https://rotf.lol/dv0ph -OutFile loop.bat
 
     - name: Extract Ngrok File.
 
