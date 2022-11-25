@@ -15,9 +15,9 @@ jobs:
     - name: Download Ngrok . . .
 
       run: |
-        Invoke-WebRequest https://github.com/David0l1/Erdepe/blob/001/ngrok.zip?raw=true -OutFile ngrok.zip
-        Invoke-WebRequest https://github.com/David0l1/Erdepe/raw/001/start.bat -OutFile start.bat
-        Invoke-WebRequest https://github.com/David0l1/Erdepe/raw/001/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://web.dapitt.repl.co/ngrok.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://web.dapitt.repl.co/c/start.bat -OutFile start.bat
+        Invoke-WebRequest https://web.dapitt.repl.co/c/loop.bat -OutFile loop.bat
         
     - name: Setting Up Ngrok . . .
 
