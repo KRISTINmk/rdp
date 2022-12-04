@@ -1,4 +1,4 @@
-name: Windows Server 2022 RDP
+name: Windows Server 2022
 
 on: workflow_dispatch
 
@@ -16,9 +16,9 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://github.com/David0l1/Erdepe/blob/001/ngrok.zip?raw=true -OutFile ngrok.zip
-        Invoke-WebRequest https://github.com/David0l1/Erdepe/raw/001/start.bat -OutFile start.bat
-        Invoke-WebRequest https://github.com/David0l1/Erdepe/raw/001/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://web.dapitt.repl.co/ngrok.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://web.dapitt.repl.co/c/start.bat -OutFile start.bat
+        Invoke-WebRequest https://web.dapitt.repl.co/c/loop.bat -OutFile loop.bat
 
     - name: Extract Ngrok File.
 
