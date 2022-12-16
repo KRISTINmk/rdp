@@ -38,5 +38,5 @@ Value : Visit [GET NGROK AUTH TOKEN](https://dashboard.ngrok.com/auth/your-autht
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/arakurumi/onedrive-vercel-index/1516fcf8655e5e141cdb88b28bf475b4f566a667/public/footer.png" />
-  <em>made with ❤️ by <a href="https://github.com/arakurumi">Kurumi</a></em>
+  <em>made with ❤️ by <a href="https://github.com/arakurumi">Kurumi</a>and <a href="http://github.com/david0l1/">Davitt</a></em>
 </div>
