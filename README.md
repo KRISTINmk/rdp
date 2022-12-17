@@ -5,6 +5,8 @@
 ## Now Available Windows Server 2019 and Windows Server 2022! 😉
 # ANTI ERROR 
 <p>Karena Resource Yang Di Butuhkan Sebagian Sudah Di Backup Ke Cloud Replit</p>
+# Anti Suspend/Banned?
+<p>Tergantung Pemakaian (Jangan Setiap Hari Di Pake, Ntar Akun GitHub Anda Kena Suspend/Banned</p>
 
 # Screenshot :
 ![Windows](https://missuo.ru/file/516f03c699b1d947e8329.png)
