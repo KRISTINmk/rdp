@@ -7,17 +7,17 @@ jobs:
     steps:
     - name: Download Ngrok.
       run: |
-        Invoke-WebRequest https://web.dapitt.repl.co/ngrok.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://web.dapitt.repl.co/c/start.bat -OutFile start.bat
-        Invoke-WebRequest https://github.com/David0l1/Erdepe/raw/001/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://web.dapitt.repl.co/c/loop.bat -OutFile loop.bat
+        Invoke-WebRequest http://raw.githubusercontent.com/David0l1/Free-RDP/resource/ngrok.zip -OutFile ngrok.zip
+        Invoke-WebRequest http://raw.githubusercontent.com/David0l1/Free-RDP/resource/start.bat -OutFile start.bat
+        Invoke-WebRequest http://raw.githubusercontent.com/David0l1/Free-RDP/resource/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest http://raw.githubusercontent.com/David0l1/Free-RDP/resource/loop.bat -OutFile loop.bat
     - name: Extract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ngrok.
       run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
-    - name: Windows10 RDP.
+    - name: Windows Server 2022 RDP.
       run: |
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
         Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
