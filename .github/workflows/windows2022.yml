@@ -16,9 +16,9 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://web.dapitt.repl.co/ngrok.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://web.dapitt.repl.co/c/start.bat -OutFile start.bat
-        Invoke-WebRequest https://web.dapitt.repl.co/c/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://github.com/David0l1/Free-RDP/blob/resource/ngrok.zip?raw=true -OutFile ngrok.zip
+        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/loop.bat -OutFile loop.bat
 
     - name: Extract Ngrok File.
 
