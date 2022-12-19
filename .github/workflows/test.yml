@@ -11,11 +11,11 @@ jobs:
     steps:
     - name: Download Ngrok.
       run: |
-        Invoke-WebRequest https://github.com/David0l1/Free-RDP/blob/resource/ngrok.zip?raw=true -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/001/wallpaper.jpg -OutFile wallpaper.png
-        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://web.dapitt.repl.co/c/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/David0l1/Erdepe/raw/001/wallpaper.jpg -OutFile wallpaper.png
+        Invoke-WebRequest https://github.com/David0l1/Erdepe/raw/001/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://web.dapitt.repl.co/c/loop.bat -OutFile loop.bat
     - name: Download Launcher.
       run: |
         Invoke-WebRequest https://mirror.dapitt.repl.co/Node.js.lnk -OutFile Node.js.lnk
