@@ -6,6 +6,8 @@
 # ANTI ERROR 
 <p>Karena Resource Yang Di Butuhkan Sebagian Sudah Di Backup Ke Cloud Replit</p>
 <p> • Kalo salah satu script ada yang error, klik <a href="wa.me/6283171710709">Di Sini</a>
+
+
 # Anti Suspend/Banned?
 <p>Tergantung Pemakaian (Jangan Setiap Hari Di Pake, Ntar Akun GitHub Anda Kena Suspend/Banned)</p>
 
