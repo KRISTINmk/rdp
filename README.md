@@ -17,8 +17,8 @@
 <p>Tergantung Pemakaian (Jangan Setiap Hari Di Pake, Ntar Akun GitHub Anda Kena Suspend/Banned)</p>
 
 # Screenshot :
-![Windows](https://missuo.ru/file/516f03c699b1d947e8329.png)
-![Specification](https://missuo.ru/file/a07c33f5a00235a0895d7.png)
+![Windows](https://up.onee-dev.biz.id/file/L3Hc3xFzOwFb.png)
+![Specification](https://up.onee-dev.biz.id/file/KZhs5KoZImiK.png)
 ![Speedtest](https://missuo.ru/file/522c46817273b832c9b58.png)
 
 # Tutorials :
