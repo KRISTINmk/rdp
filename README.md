@@ -1,3 +1,6 @@
+<strong>My Hit</strong>
+
+
 <p align="center"><img src="https://profile-counter.glitch.me/{david0l1}/count.svg" alt="neoxr :: Visitor's Count" /></p>
 
 <strong><p>Version: </p></strong><p>1.20.62</p>
