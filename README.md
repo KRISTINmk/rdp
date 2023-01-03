@@ -1,3 +1,4 @@
+<strong><p>Version: </strong>1.78.59beta0</p>
 <p align="center"><img src="https://profile-counter.glitch.me/{david0l1}/count.svg" alt="neoxr :: Visitor's Count" /></p>
 
 # 1 Hour Free Windows RDP from Github & [Ngrok](https://ngrok.com/)
