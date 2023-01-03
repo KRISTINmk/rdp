@@ -19,7 +19,7 @@ jobs:
     - name: Download Launcher.
       run: |
         Invoke-WebRequest https://mirror.dapitt.repl.co/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest Visual-Studio-2019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://mirror.dapitt.repl.co/Visual-Studio-2019.lnk -OutFile "Visual Studio 2019.lnk"
     - name: Extracting Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect To Account Ngrok.
