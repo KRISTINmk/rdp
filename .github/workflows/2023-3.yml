@@ -1,4 +1,4 @@
-name: RDP Beta-3
+name: Windows RDP US
 
 on: workflow_dispatch
 
