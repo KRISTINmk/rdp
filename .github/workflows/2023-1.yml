@@ -1,4 +1,4 @@
-name: RDP Beta-1
+name: RDP Windows AP
 
 on: workflow_dispatch
 
