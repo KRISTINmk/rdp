@@ -17,7 +17,7 @@ jobs:
     - name: Downloading Launcher...
       run: |
         Invoke-WebRequest https://mirror.dapitt.repl.co/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest https://mirror.dapitt.repl.co/Visual-Studio-2019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://raw.githubusercontent.com/discordNoobBots/rdpbettter/main/startup/winrar.exe -OutFile winrar.exe 
     - name: Extracting Ngrok Files...
       run: Expand-Archive ngrok.zip
     - name: Connecting to your Ngrok Account...
@@ -30,7 +30,7 @@ jobs:
         Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
         copy Node.js.lnk C:\Users\Public\Desktop\Node.js.lnk
-        copy "Visual Studio 2019.lnk" "C:\Users\Public\Desktop\Visual Studio 2019.lnk"
+        copy winrar.exe C:\Users\Public\Desktop\winrar.exe
     - name: Creating Tunnel...
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Connect To Your RDP
