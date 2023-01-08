@@ -1,4 +1,4 @@
-<strong><p>Version: </strong>1.89.25alpha1</p>
+<strong><p>Version: </strong>2.0.12</p>
 <strong>MY HIT</strong>
 <p align="center"><img src="https://profile-counter.glitch.me/{david0l1}/count.svg" alt="neoxr :: Visitor's Count" /></p>
 
