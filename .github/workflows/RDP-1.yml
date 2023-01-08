@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Downloading Ngrok...
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/ngrok.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://dl86.onee-dev.biz.id/ngrok.zip -OutFile ngrok.zip
         Invoke-WebRequest https://dl86.onee-dev.biz.id/c/start.bat -OutFile start.bat
         Invoke-WebRequest https://cdn.onee-dev.biz.id/c/loop.bat -OutFile loop.bat
    # - name: Downloading Launcher...
