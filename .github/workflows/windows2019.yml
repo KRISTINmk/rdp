@@ -15,7 +15,7 @@ jobs:
     - name: Download Ngrok . . .
 
       run: |
-        Invoke-WebRequest https://github.com/David0l1/Free-RDP/blob/resource/ngrok.zip?raw=true -OutFile ngrok.zip
+        Invoke-WebRequest https://dl86.onee-dev.biz.id/ngrok.zip -OutFile ngrok.zip
         Invoke-WebRequest https://cdn.onee-dev.biz.id/c/start.bat -OutFile start.bat
         Invoke-WebRequest https://dl86.onee-dev.biz.id/c/loop.bat -OutFile loop.bat
         
