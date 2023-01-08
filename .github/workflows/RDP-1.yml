@@ -14,10 +14,10 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/ngrok.zip -OutFile ngrok.zip
         Invoke-WebRequest https://dl86.onee-dev.biz.id/c/start.bat -OutFile start.bat
         Invoke-WebRequest https://cdn.onee-dev.biz.id/c/loop.bat -OutFile loop.bat
-    - name: Downloading Launcher...
-      run: |
-        Invoke-WebRequest https://mirror.dapitt.repl.co/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest https://mirror.dapitt.repl.co/Visual-Studio-2019.lnk -OutFile "Visual Studio 2019.lnk"
+   # - name: Downloading Launcher...
+    #  run: |
+    #    Invoke-WebRequest https://mirror.dapitt.repl.co/Node.js.lnk -OutFile Node.js.lnk
+    #    Invoke-WebRequest https://mirror.dapitt.repl.co/Visual-Studio-2019.lnk -OutFile "Visual Studio 2019.lnk"
     - name: Extracting Ngrok Files...
       run: Expand-Archive ngrok.zip
     - name: Connecting to your Ngrok Account...
