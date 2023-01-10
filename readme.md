@@ -10,7 +10,7 @@
 ## Now Available Windows Server 2019 and Windows Server 2022! 😉
 # ANTI ERROR 
 <p>Karena Resource Yang Di Butuhkan Sebagian Sudah Di Backup Ke Cloud Replit</p>
-<p> • Kalo salah satu script ada yang error, klik <a href="http://wa.me/6283171710709">Di Sini</a>
+<p> • Kalo salah satu script ada yang error, klik <a href="https://wa.me/6283171710709">Di Sini</a>
 
 
 # Anti Suspend/Banned?
